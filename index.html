@@ -148,7 +148,7 @@
               <div class="row">
                 <div v-for="dato in datos.Proyectos" class="col-12 col-lg-4">
                   <div class="card-deck">
-                    <div class="card proy">
+                    <div class="card proy" style="height: 40vh; padding: .25vh; margin: .5vh;">
                       <img v-bind:src=dato.ImagenProyecto class="card-img-top " alt="Imagen Proyecto">
                       <div class="card-body">
                         <h5 class="card-title d-flex justify-content-center">{{dato.Titulo}}</h5>
@@ -197,7 +197,7 @@
 
               <div id="idiomas" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
                 <h1>Languages</h1>
-                <p>{{datos.Idiomas[0].Idioma}}, Nativo</p>
+                <p>{{datos.Idiomas[0].Idioma}}, Native</p>
                 <div class="card-deck">
                   <div v-for="dato in datos.Idiomas" class="card">
                     <img v-bind:src=dato.ImagenIdioma class="card-img-top ">
@@ -217,11 +217,12 @@
                 <h1>Passions</h1>
                 <!-- <p>{{datos.Pasiones[0].Pasion}}, Nativo</p> -->
                 <div class="card-deck">
-                  <div v-for="dato in datos.Pasiones" class="card">
+                  <div v-for="dato in datos.Pasiones" class="card" style="justify-content: space-between;">
                     <img v-bind:src=dato.ImagenPasion class="card-img-top">
-                    <div class="card-body, justify-content-between">
+                    <div class="card-body, justify-content-end" >
                       <h5 class="card-title">{{dato.Pasion}}</h5>
                       <div class="d-flex" >
+                        <div> {{dato.Nivel.length}} / 5 </div>
                       <div v-for="n in dato.Nivel" >
                         <img src="./images/passionIcon.png" style="height: 2rem;">
                         
@@ -277,16 +278,6 @@
           </div>
         </div>
       </div>
-
-
-      
-
-
-
-
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

@@ -85,75 +85,75 @@
       "Destreza": "JS",
       "Descripcion": "JavaScript is the programming language of the Web.",
       "Nivel": "Experienced",
-      "Icono": "Images/jsIcon.png"
+      "Icono": "images/jsIcon.png"
     },
 
     {
       "Destreza": "CSS",
       "Descripcion": "Normally a language used to style an HTML document.",
       "Nivel": "High",
-      "Icono": "Images/cssIcon.png"
+      "Icono": "images/cssIcon.png"
     },
 
     {
       "Destreza": "Vue",
       "Descripcion": "The progressive JavaScript framework.",
       "Nivel": "High",
-      "Icono": "Images/vueIcon.png"
+      "Icono": "images/vueIcon.png"
     },
     {
       "Destreza": "PHP",
       "Descripcion": "Web oriented Programing Language.",
       "Nivel": "Adept",
-      "Icono": "Images/phpIcon.png"
+      "Icono": "images/phpIcon.png"
     },
     {
       "Destreza": "Java",
       "Descripcion": "Class based Programing Language.",
       "Nivel": "Advanced",
-      "Icono": "Images/javaIcon.png"
+      "Icono": "images/javaIcon.png"
     },
 
     {
       "Destreza": "JSON",
       "Descripcion": "Java Script Object Notation.",
       "Nivel": "High",
-      "Icono": "Images/jsonIcon.png"
+      "Icono": "images/jsonIcon.png"
     },
 
     {
       "Destreza": "BOOTSTRAP",
       "Descripcion": "Front end technology used in this page.",
       "Nivel": "Medium",
-      "Icono": "Images/bootstrapIcon.png"
+      "Icono": "images/bootstrapIcon.png"
     },
 
     {
       "Destreza": "GIMP",
       "Descripcion": "Cross-platform image editor.",
       "Nivel": "Expert",
-      "Icono": "Images/gimpIcon.png"
+      "Icono": "images/gimpIcon.png"
     },
 
     {
       "Destreza": "Photoshop",
       "Descripcion": "Advanced image editor.",
       "Nivel": "Expert",
-      "Icono": "Images/photoshopIcon.png"
+      "Icono": "images/photoshopIcon.png"
     },
 
     {
       "Destreza": "Inkscape",
       "Descripcion": "Professional vector graphics software.",
       "Nivel": "Advanced",
-      "Icono": "Images/inkscapeIcon.png"
+      "Icono": "images/inkscapeIcon.png"
     },
 
     {
       "Destreza": "Node.js",
       "Descripcion": "JavaScript runtime.",
       "Nivel": "Advanced",
-      "Icono": "Images/nodeIcon.png"
+      "Icono": "images/nodeIcon.png"
     }
   ],
 

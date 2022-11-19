@@ -43,7 +43,7 @@
 
   "Pasiones": [
     {
-      "ImagenPasion": "images/WebPasion.png",
+      "ImagenPasion": "images/webPasion.png",
       "Pasion": "Web development",
       "Nivel": ["", "", ""]
     },
@@ -78,7 +78,7 @@
       "Destreza": "HTML5",
       "Descripcion": "HTML is the standard markup language for Web pages.",
       "Nivel": "Experienced",
-      "Icono": "Images/htmlIcon.png"
+      "Icono": "images/htmlIcon.png"
     },
 
     {

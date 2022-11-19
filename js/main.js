@@ -11,6 +11,7 @@ var app = new Vue({
         getInfo: function(){
             axios.get("./js/datos.json").then((response) => {
                 this.datos = response.data
+                
 
             })
             .catch(function (error){

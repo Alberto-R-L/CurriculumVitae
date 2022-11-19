@@ -1,145 +1,214 @@
-{"DatosPersonales":[{
-    "Imagen": "images/pfp.png",
-    "Nombre":"Alberto Rios Linares",
-    "Edad":"21 Años",
-    "FechaNacimiento":"29/01/2000",
-    "Direccion":"Calle Gaona N/33",
-    "Localidad":"Granada, Granada, España",
-    "Correo":"alberorl007@gmail.com",
-    "Telefono":"644719441",
-    "Descripcion":"Estudiante de Desarrollo web en el I.E.S. Francisco Ayala. Me considero una persona con capacidades de liderazgo y buen trabajador en equipo."}],
-
-
-"ExperienciaLaboral":[{
-    "Imagen":"images/test.jpg",
-    "Imagen2":"images/TCT.png",
-    "Trabajo": "Voluntariado en TCT",
-    "Fecha": "2019-2021",
-    "Descripcion": "Estoy trabajando junto a un equipo multinacional para ayudar, por ejemplo en la creacion de eventos en la traduccion de documentos, noticias etc."},
-    
-    
-    
-    {"Imagen":"images/test.jpg",
-    "Imagen2":"images/Gelateria.png",
-    "Trabajo": "Trabajador de cuentas en Heladeria Alberto",
-    "Fecha": "2018",
-    "Descripcion":"Estuve trabajando un verano como encargado de cuentas en una heladeria."}],
-
-
-"Idiomas":[{
-
-    "ImagenIdioma":"images/es.png",
-    "Idioma": "Español",
-    "Nivel": "Nativo"
-    },
-    
-        
-    {"ImagenIdioma":"images/gb.png",
-    "Idioma": "Ingles",
-    "Nivel": "B1"  
-    },
-
-    {"ImagenIdioma":"images/de.png",
-    "Idioma": "Aleman",
-    "Nivel": "A2"  
-    },
-
-    {"ImagenIdioma":"images/fr.png",
-    "Idioma": "Frances",
-    "Nivel": "A2"  
+{
+  "DatosPersonales": [
+    {
+      "Imagen": "images/pfp.png",
+      "Nombre": "Alberto Rios Linares",
+      "Localidad": "Granada, Granada, España",
+      "Correo": "alberorl007@gmail.com",
+      "Telefono": "644719441"
     }
+  ],
 
-
-],
+  "ExperienciaLaboral": [
+    {
+        "Imagen": "images/test.jpg",
+        "Imagen2": "images/Megasur.jpg",
+        "Trabajo": "Practicas de empresa en Megasur",
+        "Fecha": "2022",
+        "Descripcion": "I worked on a front-end side webscrapper at Megasur (Granada)."
+      },
     
+    {
+      "Imagen": "images/test.jpg",
+      "Imagen2": "images/Gelateria.png",
+      "Trabajo": "Worker at Heladeria Alberto",
+      "Fecha": "2018",
+      "Descripcion": "Long ago I worked in an ice cream shop."
+    }
+  ],
 
-"Educacion":[{
-    "Titulo": "E.S.O.",
-    "Lugar": "IES Virgen de las nieves",
-    "Fecha": "2012 - 2018"},
+  "Idiomas": [
+    {
+      "ImagenIdioma": "images/es.png",
+      "Idioma": "Español",
+      "Nivel": "Nativo"
+    },
 
-    {"Titulo": "Bachillerato Científico Tecnológico",
-    "Lugar": "IES Virgen De Las Nieves",
-    "Fecha": "2017 - 2019"},
+    { "ImagenIdioma": "images/gb.png", "Idioma": "Ingles", "Nivel": "B1" },
 
-    {"Titulo": "Grado Superior Desarrollo De Aplicaciones Web",
-    "Lugar": "IES Francisco Ayala",
-    "Fecha": "2019 - 2021"}],
+    { "ImagenIdioma": "images/de.png", "Idioma": "Aleman", "Nivel": "A2" },
 
+    { "ImagenIdioma": "images/fr.png", "Idioma": "Frances", "Nivel": "A2" }
+  ],
 
-"Habilidades":[
+  "Pasiones": [
+    {
+        "ImagenPasion": "images/WebPasion.png",
+        "Pasion": "Web development",
+        "Nivel": ["", "", ""]
+      },
+    {
+      "ImagenPasion": "images/RobotPasion.jpg",
+      "Pasion": "Robotics",
+      "Nivel": ["", "", "", ""]
+    },
+    {
+        "ImagenPasion": "images/AIPasion.jpg",
+        "Pasion": "AI",
+        "Nivel": ["", "", "", ""]
+      }
+
     
-    
+  ],
 
-    {"Destreza": "CSS",
-    "Descripcion": "Lenguaje de estilos en cascada usado para definir y crear estilos en un documento de lenguaje de marcado.",
-    "Nivel":"Medio/Alto",
-    "Icono":"Images/cssIcon.png"
-},
+  "Educacion": [
+    {
+      "Titulo": "E.S.O.",
+      "Lugar": "IES Virgen de las nieves",
+      "Fecha": "2012 - 2018"
+    },
 
+    {
+      "Titulo": "Bachillerato Científico Tecnológico",
+      "Lugar": "IES Virgen De Las Nieves",
+      "Fecha": "2017 - 2019"
+    },
 
-    {"Destreza": "HTML5",
-    "Descripcion": "Lenguaje de marcado usado en la creacion de páginas web.",
-    "Nivel":"Alto",
-    "Icono":"Images/htmlIcon.png"
-},
+    {
+      "Titulo": "Grado Superior Desarrollo De Aplicaciones Web",
+      "Lugar": "IES Francisco Ayala",
+      "Fecha": "2020 - 2022"
+    }
+  ],
 
-    {"Destreza": "JS",
-    "Descripcion": "Lenguaje de programacion que puede ser usado en la creacion de paginas web dinamicas, acompañado de html.",
-    "Nivel":"Medio",
-    "Icono":"Images/jsIcon.png"
-},
+  "Habilidades": [
+    {
+      "Destreza": "HTML5",
+      "Descripcion": "HTML is the standard markup language for Web pages.",
+      "Nivel": "Experienced",
+      "Icono": "Images/htmlIcon.png"
+    },
 
-    {"Destreza": "JSON",
-    "Descripcion": "Formato de texto sencillo para el transpaso y almacenamiento de informacion usada por JS.",
-    "Nivel":"Alto",
-    "Icono":"Images/jsonIcon.png"
-},
+    {
+      "Destreza": "JS",
+      "Descripcion": "JavaScript is the programming language of the Web.",
+      "Nivel": "Experienced",
+      "Icono": "Images/jsIcon.png"
+    },
 
-    {"Destreza": "BOOTSTRAP",
-    "Descripcion": "Tecnología usada en esta pagina web, tanto para la creacion de contenedores tanto en la creacion de botones.",
-    "Nivel":"Medio",
-    "Icono":"Images/bootstrapIcon.png"
-},
-    
+    {
+      "Destreza": "CSS",
+      "Descripcion": "Normally a language used to style an HTML document.",
+      "Nivel": "High",
+      "Icono": "Images/cssIcon.png"
+    },
 
-    {"Destreza": "GIMP",
-    "Descripcion": "Herramienta de manupulacion de imagenes con la que me ha ayudado a hacer esta pagina web.",
-    "Nivel":"Experto",
-    "Icono":"Images/gimpIcon.png"
+    {
+      "Destreza": "Vue",
+      "Descripcion": "The progressive JavaScript framework.",
+      "Nivel": "High",
+      "Icono": "Images/vueIcon.png"
+    },
+
+    {
+      "Destreza": "JSON",
+      "Descripcion": "Java Script Object Notation.",
+      "Nivel": "High",
+      "Icono": "Images/jsonIcon.png"
+    },
+
+    {
+      "Destreza": "BOOTSTRAP",
+      "Descripcion": "Front end technology used in this page.",
+      "Nivel": "Medium",
+      "Icono": "Images/bootstrapIcon.png"
+    },
+
+    {
+      "Destreza": "GIMP",
+      "Descripcion": "Cross-platform image editor.",
+      "Nivel": "Expert",
+      "Icono": "Images/gimpIcon.png"
+    },
+
+    {
+      "Destreza": "Photoshop",
+      "Descripcion": "Cross-platform image editor.",
+      "Nivel": "Expert",
+      "Icono": "Images/gimpIcon.png"
+    },
+
+    {
+      "Destreza": "PHP",
+      "Descripcion": "Cross-platform image editor.",
+      "Nivel": "Adept",
+      "Icono": "Images/gimpIcon.png"
+    },
+
+    {
+      "Destreza": "Java",
+      "Descripcion": "Cross-platform image editor.",
+      "Nivel": "Medium",
+      "Icono": "Images/gimpIcon.png"
+    },
+
+    {
+      "Destreza": "Inkscape",
+      "Descripcion": "Cross-platform image editor.",
+      "Nivel": "Medium",
+      "Icono": "Images/gimpIcon.png"
+    },
+
+    {
+      "Destreza": "Node.js",
+      "Descripcion": "Cross-platform image editor.",
+      "Nivel": "Expert",
+      "Icono": "Images/gimpIcon.png"
+    }
+  ],
+
+  "Proyectos": [
+    {
+      "ImagenProyecto": "images/Landing-1.png",
+      "Imagen2": "images/Landing-2.png",
+      "Imagen3": "images/Landing-3.png",
+      "Id": "#LandingPage",
+      "Titulo": "LandingPage",
+      "LinkProduccion": "NaN",
+      "LinkRepositorio": "https://github.com/Alberto-R-L/landing-page",
+      "Resumen": "Theorical Landing page for a nonexisting company"
+    },
+
+    {
+      "ImagenProyecto": "images/Marcianos-1.png",
+      "Imagen2": "images/Marcianos-2.png",
+      "Imagen3": "images/Marcianos-3.png",
+      "Id": "#Marcianos",
+      "Titulo": "Marcianos",
+      "LinkProduccion": "NaN",
+      "LinkRepositorio": "https://github.com/Alberto-R-L/Marcianos",
+      "Resumen": "Webpage i created a long ago to learn the basics of the DOM model and basic canva usage."
+    },
+    {
+        "ImagenProyecto": "images/vTor-1.png",
+        "Imagen2": "images/vTor-2.png",
+        "Imagen3": "images/vTor-3.png",
+        "Id": "#V-Tor",
+        "Titulo": "V-Tor",
+        "LinkProduccion": "https://v-tor-a34ae.web.app/",
+        "LinkRepositorio": "https://github.com/Alberto-R-L/p-arl",
+        "Resumen": "Image designing Project on the web, using HTML Canva."
+      },
+ 
+      {
+        "ImagenProyecto": "images/tienda-1.png",
+        "Imagen2": "images/tienda-2.png",
+        "Imagen3": "images/tienda-3.png",
+        "Id": "#ElectronicsShop",
+        "Titulo": "ElectronicsShop",
+        "LinkProduccion": "NaN",
+        "LinkRepositorio": "https://github.com/Alberto-R-L/Marcianos",
+        "Resumen": "Web used to gain knowledge into web services, firebase management and cross-origin log-in"
+      }
+  ]
 }
-
-
-
-
-
-],
-
-
-
-
-    "Proyectos":[{
-    "ImagenProyecto": "images/Landing-1.png",
-    "Imagen2": "images/Landing-2.png",
-    "Imagen3": "images/Landing-3.png",
-    "Id": "#LandingPage", "Titulo": "LandingPage",
-    "LinkProduccion":"NaN",
-    "LinkRepositorio":"https://github.com/Alberto-R-L/landing-page",
-    "Resumen": "Landing page para una tienda de modelaje 3D"},
-    
-    
-    {"ImagenProyecto": "images/Marcianos-1.png",
-        "Imagen2": "images/Marcianos-2.png",
-        "Imagen3": "images/Marcianos-3.png",
-        "Id": "#Marcianos",
-        "Titulo": "Marcianos",
-        "LinkProduccion":"NaN",
-        "LinkRepositorio":"https://github.com/Alberto-R-L/Marcianos",
-        "Resumen": "Web usada para practicar el manejo de objetos DOM, en la que se utilizo principalmente Js."}
-    
-    
-        ]
-}
-
-
-
